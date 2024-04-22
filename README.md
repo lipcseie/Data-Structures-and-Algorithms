@@ -4,6 +4,15 @@
 
 This repository is a personal learning project where I practice Data Structures and Algorithms in C# by following a tutorial on YouTube. The code here represents my progress and understanding of these fundamental concepts.
 
+# Why Data Structures and Algorithms?
+
+Data Structures and Algorithms are the backbone of effective problem-solving in computer science. They enable us to organize data efficiently and solve complex problems with optimized solutions. By mastering these concepts, I aim to become a proficient programmer who can tackle any coding challenge with confidence.
+
+## Journey So Far
+
+Although I've just begun, I'm excited to share my experiences and insights as I progress through the tutorial. Each commit here represents a step forward in my understanding, and I hope it will inspire and assist others who are on a similar path.
+
+
 ## Disclaimer
 
 The content in this repository is for my educational purposes only, based on the tutorial provided by Teddy Smith. I do not own the original tutorial content.
