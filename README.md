@@ -21,7 +21,7 @@ The content in this repository is for my educational purposes only, based on the
 
 ## Acknowledgements
 
-A big thank you to Teddy Smith for the amazing tutorial that has guided my learning journey. You can find the tutorial series [here](https://www.youtube.com/watch?v=IcDcNp8gZ7U&list=PL82C6-O4XrHf49SjEZWSa5DHN--ZRrcN_&index=2).
+A big thank you to Teddy Smith for the amazing tutorial that has guided my learning journey. You can find the tutorial series [here]([https://www.youtube.com/watch?v=IcDcNp8gZ7U&list=PL82C6-O4XrHf49SjEZWSa5DHN--ZRrcN_&index=2](https://www.youtube.com/watch?v=n7nLxRaZfac&list=PL82C6-O4XrHf49SjEZWSa5DHN--ZRrcN_&index=1)).
 
 
 
