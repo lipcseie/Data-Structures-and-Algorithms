@@ -15,7 +15,7 @@ Although I've just begun, I'm excited to share my experiences and insights as I 
 
 ## Disclaimer
 
-The content in this repository is for my educational purposes only, based on the tutorial provided by Teddy Smith. I do not own the original tutorial content.
+The content in this repository is for my educational purposes only, based on the tutorial provided by Teddy Smith. I do not own the original tutorial content. You can find the tutorial series [here](https://www.youtube.com/watch?v=IcDcNp8gZ7U&list=PL82C6-O4XrHf49SjEZWSa5DHN--ZRrcN_&index=1)
 
 ## What's Inside
 
@@ -27,12 +27,6 @@ The content in this repository is for my educational purposes only, based on the
 
 - Each folder corresponds to a specific data structure or algorithm.
 - Inside each folder, you'll find my C# code files along with a brief explanation.
-
-## Acknowledgements
-
-A big thank you to Teddy Smith for the amazing tutorial that has guided my learning journey. You can find the tutorial series [here](https://www.youtube.com/watch?v=IcDcNp8gZ7U&list=PL82C6-O4XrHf49SjEZWSa5DHN--ZRrcN_&index=1)
-
-
 
 ## Contact
 
