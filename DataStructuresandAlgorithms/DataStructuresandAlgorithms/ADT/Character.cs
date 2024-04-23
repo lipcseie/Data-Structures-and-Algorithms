@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace DataStructuresandAlgorithms.ADT
 {
-    internal class Character
+    public class Character
     {
+        public string Name { get; set; }
+
+        public int Experience { get; set; }
+
+        public bool IsCharacter() 
+        {
+            return true;
+        }
+
+
     }
 }
