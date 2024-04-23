@@ -19,8 +19,14 @@ namespace DataStructuresandAlgorithms
                 length++;
             }
 
-            intArray[length] = 0;
+            intArray[length] = 8;
             length++;
+
+            // Print the array to the console
+            for (int i = 0; i < length; i++)
+            {
+                Console.WriteLine(intArray[i]);
+            }
         }
     }
 }
