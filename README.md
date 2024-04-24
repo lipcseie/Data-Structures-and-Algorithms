@@ -22,6 +22,7 @@ The content in this repository is for my educational purposes only, based on the
 - Implementations of various data structures and algorithms in C#.
 - My notes and comments on each topic.
 - Challenges I've encountered and how I've overcome them.
+- xUnit tests for each data structure and algorithm to ensure correctness and performance.
 
 ## How to Navigate
 
