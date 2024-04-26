@@ -7,6 +7,7 @@ namespace DataStructuresandAlgorithms
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("\nInserting at the end of an array\n");
             var insertingAtTheEndOfArray = new InsertingAtTheEndOfArray();
             var array = insertingAtTheEndOfArray.CreateArray();
             insertingAtTheEndOfArray.PrintArray(array);

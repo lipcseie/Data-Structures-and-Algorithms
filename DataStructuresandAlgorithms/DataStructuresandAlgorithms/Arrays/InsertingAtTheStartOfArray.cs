@@ -12,9 +12,10 @@ namespace DataStructuresandAlgorithms.Arrays
         // Inserting at the start of an array
         public int[] CreateArray()
         {
-            int[] intArray = { 1, 2, 3, 4, 5, 6}; 
+            int[] intArray = { 1, 2, 3, 4, 5, 6};
 
-            for(int i = 3; i >= 0; i--)
+            // intArray.Length - 2 to avoid an IndexOutOfRangeException
+            for (int i = intArray.Length - 2; i >= 0; i--)
             {
                 // this is moving over all the values
                 intArray[i + 1] = intArray[i];
