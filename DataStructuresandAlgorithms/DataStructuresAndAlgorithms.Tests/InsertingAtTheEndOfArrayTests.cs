@@ -11,10 +11,11 @@ namespace DataStructuresAndAlgorithms.Tests
             var insertingAtTheEndOfArray = new InsertingAtTheEndOfArray();
 
             // Act
-            var array = insertingAtTheEndOfArray.CreateArray(); 
+            var array = insertingAtTheEndOfArray.CreateArray();
+            var result = new int[] { 1, 2, 3, 8, 0, 0 };
 
             // Assert
-            Assert.Equal(new int[] {1, 2, 3, 8, 0, 0}, array);
+            Assert.Equal(result, array);
 
         }
     }

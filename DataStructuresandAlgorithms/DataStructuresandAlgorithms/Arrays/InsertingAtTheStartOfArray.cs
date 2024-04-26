@@ -6,25 +6,21 @@ using System.Threading.Tasks;
 
 namespace DataStructuresandAlgorithms.Arrays
 {
-    public class InsertingAtTheEndOfArray
+    public class InsertingAtTheStartOfArray
     {
-        // Inserting at the end of array O(1)
+
+        // Inserting at the start of an array
         public int[] CreateArray()
         {
-            int[] intArray = new int[6];
+            int[] intArray = { 1, 2, 3, 4, 5, 6}; 
 
-            // Make a variable to keep the length. Length ased off capicity and doea track the actual index
-            int length = 0;
-
-            for (int i = 0; i < 3; i++)
+            for(int i = 3; i >= 0; i--)
             {
-                intArray[length] = i + 1;
-                length++;
+                // this is moving over all the values
+                intArray[i + 1] = intArray[i];
             }
 
-            // assign the 4th element to 8
-            intArray[length] = 8;
-
+            intArray[0] = 20;
             return intArray;
         }
 
