@@ -25,12 +25,5 @@ namespace DataStructuresandAlgorithms.Arrays
             return intArray;
         }
 
-        public void PrintArray(int[] array)
-        {
-            for (int i = 0; i < array.Length; i++)
-            {
-                Console.WriteLine(array[i]);
-            }
-        }
     }
 }

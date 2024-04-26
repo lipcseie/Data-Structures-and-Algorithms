@@ -10,12 +10,12 @@ namespace DataStructuresandAlgorithms
             Console.WriteLine("\nInserting at the end of an array\n");
             var insertingAtTheEndOfArray = new InsertingAtTheEndOfArray();
             var array = insertingAtTheEndOfArray.CreateArray();
-            insertingAtTheEndOfArray.PrintArray(array);
+            ArrayUtilities.PrintArray(array);
 
             Console.WriteLine("\nInserting at the start of an array\n");
             var insertingAtTheStartOfArray = new InsertingAtTheStartOfArray();
             var array2 = insertingAtTheStartOfArray.CreateArray();  
-            insertingAtTheStartOfArray.PrintArray(array2);
+            ArrayUtilities.PrintArray(array2);
         }
     }
 }
