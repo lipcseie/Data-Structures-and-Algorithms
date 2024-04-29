@@ -27,6 +27,11 @@ namespace DataStructuresandAlgorithms
             var array4 = deleteThelast.DeleteTheLastElement();
             ArrayUtilities.PrintArray(array4);
 
+            Console.WriteLine();
+            var deleteTheFirstElement = new DeleteTheFirstElement();    
+            var array5 = deleteTheFirstElement.DeleteTheFirstElementFromTheArray();
+            ArrayUtilities.PrintArray(array5);
+
         }
     }
 }
