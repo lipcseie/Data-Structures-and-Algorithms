@@ -16,6 +16,12 @@ namespace DataStructuresandAlgorithms
             var insertingAtTheStartOfArray = new InsertingAtTheStartOfArray();
             var array2 = insertingAtTheStartOfArray.CreateArray();  
             ArrayUtilities.PrintArray(array2);
+
+            Console.WriteLine("\nInserting anywhere\n");
+            var InsertingAnywhere = new InsertingAnywhere();
+            var array3 = InsertingAnywhere.CreateArray();
+            ArrayUtilities.PrintArray(array3);
+
         }
     }
 }

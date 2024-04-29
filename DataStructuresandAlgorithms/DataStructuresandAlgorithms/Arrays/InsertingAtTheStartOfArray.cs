@@ -18,7 +18,8 @@ namespace DataStructuresandAlgorithms.Arrays
             for (int i = intArray.Length - 2; i >= 0; i--)
             {
                 // this is moving over all the values
-                intArray[i + 1] = intArray[i];
+                // the next position in the array                 
+                intArray[i + 1] = intArray[i]; 
             }
 
             intArray[0] = 20;

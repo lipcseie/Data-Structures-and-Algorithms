@@ -12,7 +12,7 @@ namespace DataStructuresAndAlgorithms.Tests
 
             // Act
             var array = insertingAtTheEndOfArray.CreateArray();
-            var result = new int[] { 1, 2, 3, 8, 0, 0 };
+            var result = new int[] { 1, 2, 3, 4, 5, 8 };
 
             // Assert
             Assert.Equal(result, array);
