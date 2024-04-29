@@ -23,14 +23,29 @@ namespace DataStructuresAndAlgorithms.Tests
         public void CreateArray_InsertsCorrectly_At_The_Start()
         {
             //Arrange
-            var InsertingAtTheStartOfArray = new InsertingAtTheStartOfArray();
+            var insertingAtTheStartOfArray = new InsertingAtTheStartOfArray();
 
             // Act
-            var array = InsertingAtTheStartOfArray.CreateArray();
+            var array = insertingAtTheStartOfArray.CreateArray();
             var result = new int[] { 20, 1, 2, 3, 4, 5 };
 
             // Assert
             Assert.Equal(result, array);
         }
+
+        [Fact]
+        public void CreateArray_InsertsCorrectly_Anywhere()
+        {
+            //Arrange
+            var InsertingAnywhere = new InsertingAnywhere();
+
+            //Act
+            var array = InsertingAnywhere.CreateArray();
+            var result = new int[] { 1, 2, 8, 3, 4, 5 };
+
+            //Assert
+            Assert.Equal(result, array);
+        }
+            
     }
 }
