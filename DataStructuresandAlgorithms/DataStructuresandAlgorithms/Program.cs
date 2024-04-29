@@ -18,9 +18,14 @@ namespace DataStructuresandAlgorithms
             ArrayUtilities.PrintArray(array2);
 
             Console.WriteLine("\nInserting anywhere\n");
-            var InsertingAnywhere = new InsertingAnywhere();
-            var array3 = InsertingAnywhere.CreateArray();
+            var insertingAnywhere = new InsertingAnywhere();
+            var array3 = insertingAnywhere.CreateArray();
             ArrayUtilities.PrintArray(array3);
+
+            Console.WriteLine("\nDelete the last element \n");
+            var deleteThelast = new DeletionFromTheEnd();
+            var array4 = deleteThelast.DeletionTheLastElement();
+            ArrayUtilities.PrintArray(array4);
 
         }
     }
