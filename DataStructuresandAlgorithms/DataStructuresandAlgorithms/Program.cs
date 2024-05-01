@@ -9,17 +9,17 @@ namespace DataStructuresandAlgorithms
         {
             Console.WriteLine("\nInserting at the end of an array\n");
             var insertingAtTheEndOfArray = new InsertingAtTheEndOfArray();
-            var array = insertingAtTheEndOfArray.CreateArray();
+            var array = insertingAtTheEndOfArray.CreateArrayWithInsertAtEnd();
             ArrayUtilities.PrintArray(array);
 
             Console.WriteLine("\nInserting at the start of an array\n");
             var insertingAtTheStartOfArray = new InsertingAtTheStartOfArray();
-            var array2 = insertingAtTheStartOfArray.CreateArray();  
+            var array2 = insertingAtTheStartOfArray.CreateArrayWithInsertAtStart();  
             ArrayUtilities.PrintArray(array2);
 
             Console.WriteLine("\nInserting anywhere\n");
             var insertingAnywhere = new InsertingAnywhere();
-            var array3 = insertingAnywhere.CreateArray();
+            var array3 = insertingAnywhere.CreateArrayInsertAtnAnywhere();
             ArrayUtilities.PrintArray(array3);
 
             Console.WriteLine("\nDelete the last element \n");

@@ -10,7 +10,7 @@ namespace DataStructuresandAlgorithms.Arrays
     {
 
         // Inserting at the start of an array
-        public int[] CreateArray()
+        public int[] CreateArrayWithInsertAtStart()
         {
             int[] intArray = { 1, 2, 3, 4, 5, 6};
 

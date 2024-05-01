@@ -8,7 +8,7 @@ namespace DataStructuresandAlgorithms.Arrays
 {
     public class InsertingAnywhere
     {
-        public int[] CreateArray()
+        public int[] CreateArrayInsertAtnAnywhere()
         {
             int[] intArray = { 1, 2, 3, 4, 5, 6 };
 

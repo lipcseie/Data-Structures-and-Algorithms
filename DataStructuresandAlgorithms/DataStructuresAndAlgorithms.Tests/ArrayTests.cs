@@ -5,13 +5,13 @@ namespace DataStructuresAndAlgorithms.Tests
     public class ArrayTests
     {
         [Fact]
-        public void CreateArray_InsertsCorrectly_At_The_End()
+        public void CreateArrayWithInsertAtEnd_InsertsCorrectly_At_The_End()
         {
             // Arrange
             var insertingAtTheEndOfArray = new InsertingAtTheEndOfArray();
 
             // Act
-            var array = insertingAtTheEndOfArray.CreateArray();
+            var array = insertingAtTheEndOfArray.CreateArrayWithInsertAtEnd();
             var result = new int[] { 1, 2, 3, 4, 5, 8 };
 
             // Assert
@@ -19,42 +19,55 @@ namespace DataStructuresAndAlgorithms.Tests
 
         }
 
-
         [Fact]
-        public void CreateArray_InsertsCorrectly_At_The_Start()
-        {
-            //Arrange
-            var insertingAtTheStartOfArray = new InsertingAtTheStartOfArray();
-
-            // Act
-            var array = insertingAtTheStartOfArray.CreateArray();
-            var result = new int[] { 20, 1, 2, 3, 4, 5 };
-
-            // Assert
-            Assert.Equal(result, array);
-        }
-
-        [Fact]
-        public void CreateArray_ReturnsArrayWithCorrectLength()
+        public void CreateArrayWithInsertAtEnd_ReturnsArrayWithCorrectLength()
         {
             // Arrange
-            var insertingAtTheStartOfArray = new InsertingAtTheStartOfArray();
+            var insertingAtTheEndOfArray = new InsertingAtTheEndOfArray();
 
             // Act
-            var array = insertingAtTheStartOfArray.CreateArray();
+            var array = insertingAtTheEndOfArray.CreateArrayWithInsertAtEnd();
 
             // Assert
             Assert.Equal(6, array.Length);
         }
 
         [Fact]
-        public void CreateArray_InsertsCorrectly_Anywhere()
+        public void CCreateArrayWithInsertAtStart_InsertsCorrectly_At_The_Start()
+        {
+            //Arrange
+            var insertingAtTheStartOfArray = new InsertingAtTheStartOfArray();
+
+            // Act
+            var array = insertingAtTheStartOfArray.CreateArrayWithInsertAtStart();
+            var result = new int[] { 20, 1, 2, 3, 4, 5 };
+
+            // Assert
+            Assert.Equal(result, array);
+        }
+
+
+        [Fact]
+        public void CreateArrayWithInsertAtStart_ReturnsArrayWithCorrectLength()
+        {
+            // Arrange
+            var insertingAtTheStartOfArray = new InsertingAtTheStartOfArray();
+
+            // Act
+            var array = insertingAtTheStartOfArray.CreateArrayWithInsertAtStart();
+
+            // Assert
+            Assert.Equal(6, array.Length);
+        }
+
+        [Fact]
+        public void CreateArrayInsertAtnAnywhere_InsertsCorrectly_Anywhere()
         {
             //Arrange
             var insertingAnywhere = new InsertingAnywhere();
 
             //Act
-            var array = insertingAnywhere.CreateArray();
+            var array = insertingAnywhere.CreateArrayInsertAtnAnywhere();
             var result = new int[] { 1, 2, 8, 3, 4, 5 };
 
             //Assert

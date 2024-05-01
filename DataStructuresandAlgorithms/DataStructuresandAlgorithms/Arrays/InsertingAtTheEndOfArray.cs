@@ -9,7 +9,7 @@ namespace DataStructuresandAlgorithms.Arrays
     public class InsertingAtTheEndOfArray
     {
         // Inserting at the end of array O(1)
-        public int[] CreateArray()
+        public int[] CreateArrayWithInsertAtEnd()
         {
             int[] intArray = new int[6];
 
