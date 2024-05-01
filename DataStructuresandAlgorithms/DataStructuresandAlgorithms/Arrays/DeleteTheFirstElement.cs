@@ -28,6 +28,7 @@ namespace DataStructuresandAlgorithms.Arrays
 
             // Create a new array without the last element
             int[] newArray = new int[length];
+            // copies elements from the original array to the new array.
             Array.Copy(intArray, newArray, length);
 
             return newArray;
