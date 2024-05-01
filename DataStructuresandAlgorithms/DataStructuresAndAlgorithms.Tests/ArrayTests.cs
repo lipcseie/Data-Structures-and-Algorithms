@@ -35,6 +35,19 @@ namespace DataStructuresAndAlgorithms.Tests
         }
 
         [Fact]
+        public void CreateArray_ReturnsArrayWithCorrectLength()
+        {
+            // Arrange
+            var insertingAtTheStartOfArray = new InsertingAtTheStartOfArray();
+
+            // Act
+            var array = insertingAtTheStartOfArray.CreateArray();
+
+            // Assert
+            Assert.Equal(6, array.Length);
+        }
+
+        [Fact]
         public void CreateArray_InsertsCorrectly_Anywhere()
         {
             //Arrange
