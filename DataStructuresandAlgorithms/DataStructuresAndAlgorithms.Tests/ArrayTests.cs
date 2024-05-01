@@ -19,6 +19,7 @@ namespace DataStructuresAndAlgorithms.Tests
 
         }
 
+
         [Fact]
         public void CreateArray_InsertsCorrectly_At_The_Start()
         {
@@ -61,9 +62,32 @@ namespace DataStructuresAndAlgorithms.Tests
             Assert.Equal(result, array);
         }
 
+        [Fact]
+        public void DeleteTheFirstElementFromTheArray_ReturnsCorrectArray()
+        {
+            // Arrange
+            var deleteTheFirstElement = new DeleteTheFirstElement();
 
+            // Act
+            var array = deleteTheFirstElement.DeleteTheFirstElementFromTheArray();
+            var expected = new int[] { 2, 3, 4, 5, 6, 7, 8, 9 };
 
+            // Assert
+            Assert.Equal(expected, array);
+        }
 
+        [Fact]
+        public void DeleteTheFirstElementFromTheArray_ReturnsArrayWithCorrectLength()
+        {
+            // Arrange
+            var deleteTheFirstElement = new DeleteTheFirstElement();
+
+            // Act
+            var array = deleteTheFirstElement.DeleteTheFirstElementFromTheArray();
+
+            // Assert
+            Assert.Equal(8, array.Length);
+        }
 
     }
 }
