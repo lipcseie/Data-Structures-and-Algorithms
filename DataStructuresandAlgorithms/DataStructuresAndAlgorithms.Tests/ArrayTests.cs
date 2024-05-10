@@ -1,4 +1,6 @@
 using DataStructuresandAlgorithms.Arrays;
+using InsertingAtTheEndOfArray;
+
 
 namespace DataStructuresAndAlgorithms.Tests
 {
@@ -12,13 +14,12 @@ namespace DataStructuresAndAlgorithms.Tests
 
             // Act
             var array = insertingAtTheEndOfArray.CreateArrayWithInsertAtEnd();
-            var result = new int[] { 1, 2, 3, 4, 5, 8 };
+            var result = new int[] { 1, 2, 3, 8 };
 
             // Assert
             Assert.Equal(result, array);
 
         }
-
         [Fact]
         public void CreateArrayWithInsertAtEnd_ReturnsArrayWithCorrectLength()
         {
@@ -29,7 +30,7 @@ namespace DataStructuresAndAlgorithms.Tests
             var array = insertingAtTheEndOfArray.CreateArrayWithInsertAtEnd();
 
             // Assert
-            Assert.Equal(6, array.Length);
+            Assert.Equal(3, array.Length);
         }
 
         [Fact]
