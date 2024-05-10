@@ -22,9 +22,9 @@
             {
                 newArray[i] = intArray[i];
             }
+            // sets the last element of newArray to newElement
             newArray[length] = newElement;
             return newArray;
-
         }
     }
 }
