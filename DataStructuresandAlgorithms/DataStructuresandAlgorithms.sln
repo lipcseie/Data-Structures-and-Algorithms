@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsertingAtTheStartOfArray"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertElementAtPosition", "InsertElementAtPosition\InsertElementAtPosition.csproj", "{A3AF73AE-CCBF-4C2B-8A55-143552F90D29}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteTheLastElement", "DeleteTheLastElement\DeleteTheLastElement.csproj", "{B2A585D6-0D6C-400C-A17D-2FF761B2E303}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A3AF73AE-CCBF-4C2B-8A55-143552F90D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3AF73AE-CCBF-4C2B-8A55-143552F90D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3AF73AE-CCBF-4C2B-8A55-143552F90D29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A585D6-0D6C-400C-A17D-2FF761B2E303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A585D6-0D6C-400C-A17D-2FF761B2E303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A585D6-0D6C-400C-A17D-2FF761B2E303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A585D6-0D6C-400C-A17D-2FF761B2E303}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,10 +9,6 @@ namespace DataStructuresandAlgorithms
         {
 
 
-            Console.WriteLine("\nDelete the last element \n");
-            var deleteThelast = new DeletionFromTheEnd();
-            var array4 = deleteThelast.DeleteTheLastElement();
-            ArrayUtilities.PrintArray(array4);
 
             Console.WriteLine();
             var deleteTheFirstElement = new DeleteTheFirstElement();    
