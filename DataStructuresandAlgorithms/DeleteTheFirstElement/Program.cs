@@ -15,14 +15,13 @@
 
         public static int[] DeleteTheFirstElement(int[] array)
         {
-            int length = array.Length;
-            int[] newArray = new int[length - 1];
-
             if( array == null || array.Length ==0 )
             {
                 throw new ArgumentException("Array must not be null or empty");
             }
 
+            int length = array.Length;
+            int[] newArray = new int[length - 1];
 
             for ( int i = 1; i < length; i++ )
             {

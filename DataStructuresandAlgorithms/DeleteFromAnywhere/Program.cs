@@ -15,9 +15,6 @@
 
         public static int[] DeleteFromAnywhere(int[] array, int position)
         {
-            int length = array.Length;
-            int[] newArray = new int[length - 1];
-
             if (array == null || array.Length == 0)
             {
                 throw new ArgumentException("Array most not be null or empty");
@@ -26,6 +23,9 @@
             {
                 throw new ArgumentException("Position must be a positive integer");
             }
+
+            int length = array.Length;
+            int[] newArray = new int[length - 1];
 
             for (int i = 0; i < position; i++)
             {

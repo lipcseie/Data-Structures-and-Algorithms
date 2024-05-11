@@ -15,14 +15,13 @@
 
         public static int[] DeleteTheLastElement(int[] array)
         {
-            int length = array.Length;
-            int[] newArray =  new int[length - 1];
-
             if (array == null || array.Length == 0)
             {
                 throw new ArgumentException("Array must not be null or empty");
             }
 
+            int length = array.Length;
+            int[] newArray = new int[length - 1];
             Array.Copy(array, newArray, length - 1);
             return newArray;
         }

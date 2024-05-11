@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteTheFirstElement", "De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteFromAnywhere", "DeleteFromAnywhere\DeleteFromAnywhere.csproj", "{721F9A83-0AE4-4B1F-A578-6C0C79C6E0F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearSearch", "LinearSearch\LinearSearch.csproj", "{4C3ADBBD-1FDF-4C2A-8CC0-A45314266A6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{721F9A83-0AE4-4B1F-A578-6C0C79C6E0F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{721F9A83-0AE4-4B1F-A578-6C0C79C6E0F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{721F9A83-0AE4-4B1F-A578-6C0C79C6E0F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C3ADBBD-1FDF-4C2A-8CC0-A45314266A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3ADBBD-1FDF-4C2A-8CC0-A45314266A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3ADBBD-1FDF-4C2A-8CC0-A45314266A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3ADBBD-1FDF-4C2A-8CC0-A45314266A6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
