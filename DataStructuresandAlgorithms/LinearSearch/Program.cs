@@ -8,7 +8,7 @@
             Console.WriteLine(LinearSearch(array, 5));
         }
 
-        public static bool LinearSearch(int[] array, int target)
+        public static int LinearSearch(int[] array, int target)
         {
             if (array == null || array.Length == 0)
             {
@@ -24,11 +24,11 @@
             {
                 if (array[i] == target)
                 {
-                    return true;
+                    return i;
                 }
             }
 
-            return false;
+            return -1;
         }
     }
 }
