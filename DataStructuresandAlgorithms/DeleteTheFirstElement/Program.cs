@@ -23,6 +23,7 @@
                 throw new ArgumentException("Array must not be null or empty");
             }
 
+
             for ( int i = 1; i < length; i++ )
             {
                 newArray[i - 1] = array[i];
