@@ -18,6 +18,11 @@
             int length = intArray.Length;
             int[] newArray = new int[length + 1];
 
+            if (intArray == null || intArray.Length == 0)
+            {
+                throw new ArgumentException("Array must not be null or empty");
+            }
+
             for (int i = 0; i < intArray.Length; i++) 
             {
                 newArray[i] = intArray[i];
