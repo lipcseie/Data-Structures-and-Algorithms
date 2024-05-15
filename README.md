@@ -1,4 +1,4 @@
-# Data-Structures-and-Algorithms-in-CSharp
+# Data-Structures-and-Algorithms
 
 ## About This Repository
 
