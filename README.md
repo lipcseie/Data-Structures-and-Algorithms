@@ -2,7 +2,7 @@
 
 ## About This Repository
 
-This repository is a personal learning project where I practice Data Structures and Algorithms in C# by following a tutorial on Udemy: ** Algorithms and Data Structures in C#: Complete Tutorial ***. The code here represents my progress and understanding of these fundamental concepts.
+This repository is a personal learning project where I practice Data Structures and Algorithms in C# by following a tutorial on Udemy: ***Algorithms and Data Structures in C#: Complete Tutorial***. The code here represents my progress and understanding of these fundamental concepts.
 
 # Why Data Structures and Algorithms?
 
