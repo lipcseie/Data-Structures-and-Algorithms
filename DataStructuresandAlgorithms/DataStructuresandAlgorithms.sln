@@ -9,15 +9,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsertingAtTheEndOfArray", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsertingAtTheStartOfArray", "InsertingAtTheStartOfArray\InsertingAtTheStartOfArray.csproj", "{E8508B40-014C-464E-A8BF-6D6128A4B426}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertElementAtPosition", "InsertElementAtPosition\InsertElementAtPosition.csproj", "{A3AF73AE-CCBF-4C2B-8A55-143552F90D29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsertElementAtPosition", "InsertElementAtPosition\InsertElementAtPosition.csproj", "{A3AF73AE-CCBF-4C2B-8A55-143552F90D29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteTheLastElement", "DeleteTheLastElement\DeleteTheLastElement.csproj", "{B2A585D6-0D6C-400C-A17D-2FF761B2E303}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteTheLastElement", "DeleteTheLastElement\DeleteTheLastElement.csproj", "{B2A585D6-0D6C-400C-A17D-2FF761B2E303}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteTheFirstElement", "DeleteTheFirstElement\DeleteTheFirstElement.csproj", "{BA3F6B3B-7D25-426A-8F56-19541A4419E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteTheFirstElement", "DeleteTheFirstElement\DeleteTheFirstElement.csproj", "{BA3F6B3B-7D25-426A-8F56-19541A4419E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteFromAnywhere", "DeleteFromAnywhere\DeleteFromAnywhere.csproj", "{721F9A83-0AE4-4B1F-A578-6C0C79C6E0F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteFromAnywhere", "DeleteFromAnywhere\DeleteFromAnywhere.csproj", "{721F9A83-0AE4-4B1F-A578-6C0C79C6E0F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearSearch", "LinearSearch\LinearSearch.csproj", "{4C3ADBBD-1FDF-4C2A-8CC0-A45314266A6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearSearch", "LinearSearch\LinearSearch.csproj", "{4C3ADBBD-1FDF-4C2A-8CC0-A45314266A6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{03256526-29F7-4031-A0CC-F18CFC693340}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{4C3ADBBD-1FDF-4C2A-8CC0-A45314266A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C3ADBBD-1FDF-4C2A-8CC0-A45314266A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C3ADBBD-1FDF-4C2A-8CC0-A45314266A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03256526-29F7-4031-A0CC-F18CFC693340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03256526-29F7-4031-A0CC-F18CFC693340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03256526-29F7-4031-A0CC-F18CFC693340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03256526-29F7-4031-A0CC-F18CFC693340}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

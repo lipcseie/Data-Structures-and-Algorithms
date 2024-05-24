@@ -1,11 +1,41 @@
-﻿namespace LinearSearch
+﻿using System.Diagnostics;
+
+namespace LinearSearch
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            int[] array = { 1, 2, 3, 4, 5, 6, 7 };
-            Console.WriteLine(LinearSearch(array, 5));
+            string filePath = @"C:\Users\ASUS\Data-Structures-and-Algorithms\DataStructuresandAlgorithms\DataStructuresandAlgorithms\Data\8Kints.txt";
+            int[] numbers = ReadIntsFromFile(filePath);
+
+            if (numbers.Length > 0)
+            {
+                int target = 875219;
+                Console.WriteLine($"Searching for {target} in the array...");
+
+                Stopwatch stopwatch = Stopwatch.StartNew();
+
+                int resultIndex = LinearSearch(numbers, target);
+
+                stopwatch.Stop();
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine($"Time taken to search: {stopwatch.ElapsedMilliseconds} ms");
+                Console.ResetColor();
+
+                if (resultIndex != -1)
+                {
+                    Console.WriteLine($"Target {target} found at index: {resultIndex}");
+                }
+                else
+                {
+                    Console.WriteLine($"Target {target} not found in the array.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("No data to search.");
+            }
         }
 
         public static int LinearSearch(int[] array, int target)
@@ -29,6 +59,21 @@
             }
 
             return -1;
+        }
+
+        public static int[] ReadIntsFromFile(string filePath)
+        {
+            try
+            {
+                string[] lines = File.ReadAllLines(filePath);
+                int[] numbers = Array.ConvertAll(lines, int.Parse);
+                return numbers;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred while reading the file: {ex.Message}");
+                return new int[0];
+            }
         }
     }
 }
