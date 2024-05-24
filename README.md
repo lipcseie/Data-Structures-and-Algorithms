@@ -18,7 +18,7 @@ Although I've just begun, I'm excited to share my experiences and insights as I 
 Each folder corresponds to a specific data structure or algorithm. Inside each folder, you'll find my C# code files along with a brief explanation.
 
 ## Tutorial Link
-I use this tutorial to learn DSA: [Data Structures and Algorithms Tutorial](https://example.com/your-tutorial-link)
+I use this tutorial to learn DSA: [Data Structures and Algorithms Tutorial](https://www.udemy.com/course/algorithms-data-structures-csharp/?couponCode=OF52424)
 
 ## Contact
 Feel free to reach out if you have any questions or suggestions for improvement.
