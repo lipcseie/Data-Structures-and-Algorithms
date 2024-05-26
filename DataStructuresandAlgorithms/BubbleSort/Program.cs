@@ -21,8 +21,6 @@ namespace BubbleSort
 
                 BubbleSortClass.BubbleSort(numbers);
 
-                BubbleSortClass.BubbleSort(numbers);
-
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("\nArray after sorting:");
                 Console.WriteLine("------------------------\n");

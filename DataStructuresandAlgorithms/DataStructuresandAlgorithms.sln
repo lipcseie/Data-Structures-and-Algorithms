@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteFromAnywhere", "Delet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearSearch", "LinearSearch\LinearSearch.csproj", "{4C3ADBBD-1FDF-4C2A-8CC0-A45314266A6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{03256526-29F7-4031-A0CC-F18CFC693340}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{03256526-29F7-4031-A0CC-F18CFC693340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSort", "SelectionSort\SelectionSort.csproj", "{5E7E830B-B1E5-457C-9518-A1E3740615B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{03256526-29F7-4031-A0CC-F18CFC693340}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03256526-29F7-4031-A0CC-F18CFC693340}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03256526-29F7-4031-A0CC-F18CFC693340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E7E830B-B1E5-457C-9518-A1E3740615B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E7E830B-B1E5-457C-9518-A1E3740615B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E7E830B-B1E5-457C-9518-A1E3740615B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E7E830B-B1E5-457C-9518-A1E3740615B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
