@@ -8,6 +8,7 @@ namespace BubbleSort
 {
     public  class BubbleSortClass
     {
+         // Stable Sorting Algorithm
         public static void BubbleSort(int[] array)
         {
             for (int partIndex = array.Length - 1; partIndex > 0; partIndex--)

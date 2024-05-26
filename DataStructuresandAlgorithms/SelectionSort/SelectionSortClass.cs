@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace SelectionSort
 {
+    // Unstable Sorting Algorithm
     public class SelectionSortClass
     {
         public static void SelectionSort(int[] array)
