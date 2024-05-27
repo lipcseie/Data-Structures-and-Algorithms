@@ -6,7 +6,7 @@ namespace BubbleSort
     {
         static void Main(string[] args)
         {
-            string filePath = @"C:\Users\ASUS\Data-Structures-and-Algorithms\DataStructuresandAlgorithms\DataStructuresandAlgorithms\Data\8Kints.txt"; // Update this path as needed
+            string filePath = @"C:\Users\ASUS\Data-Structures-and-Algorithms\DataStructuresandAlgorithms\DataStructuresandAlgorithms\Data\8Kints.txt"; 
             int[] numbers = BubbleSortClass.ReadIntsFromFile(filePath);
 
             if (numbers.Length > 0)
