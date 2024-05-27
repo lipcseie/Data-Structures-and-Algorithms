@@ -11,11 +11,14 @@ namespace InsertionSort
     {
         public static void InsertionSort(int[] array)
         {
+            // partIndex represents the wall between the sorted and unsorted parts of the array
             for (int partIndex = 1; partIndex < array.Length; partIndex++)
             {
                 int currentlyUnsorted = array[partIndex];
                 int i = 0;
 
+                // This loop moves from the current partIndex backward through the sorted portion of the array
+                // i starts at partIndex and decreases until it finds the correct position for currentlyUnsorted
                 for ( i = partIndex; i > 0 && array[i - 1] > currentlyUnsorted; i--)
                 {
                     array[i] = array[i - 1];
