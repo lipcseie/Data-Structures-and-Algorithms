@@ -14,7 +14,7 @@ namespace InsertingAtTheEndOfArray
                 int newElement = 9;
   
 
-                Console.WriteLine($"Inserting an element to the end of the arra...");
+                Console.WriteLine($"Inserting an element to the end of the array...");
 
                 Stopwatch stopwatch = Stopwatch.StartNew();
 
