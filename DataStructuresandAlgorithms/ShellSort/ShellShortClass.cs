@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ShellSort
 {
+    // Unstable
     public class ShellShortClass
     {
         public static void ShellShort(int[] array)
