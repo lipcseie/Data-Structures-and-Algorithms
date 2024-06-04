@@ -14,12 +14,13 @@ namespace MergeSort
 
             Sort(0, array.Length - 1);
 
-            // 
+            // low, high, and mid are indices used to divide the array into smaller subarray
             void Sort(int low, int high)
             {
-                if (high <= low)
+                if (high <= low) // if high is less than or equal to low, it means the portion of the array is already sorted
                     return;
 
+                // Otherwise, it calculates the middle index mid,
                 int mid = (low + high) / 2;
                 Sort(low, mid);
                 Sort(mid + 1, high);
