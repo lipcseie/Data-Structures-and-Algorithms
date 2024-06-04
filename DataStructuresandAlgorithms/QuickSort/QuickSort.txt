@@ -1,1 +1,10 @@
-﻿
+﻿Quick Sort
+•	Divide and conquer
+•	Recursive
+•	splitting based on pivot elements
+•	elements < pivot go to its left
+•	elements > pivot go its right
+•	pivot gets into its place in the end of each pass
+•	in-place algorithm: uses a small amount of extra memory (does not depend on n)
+•	time complexity: linearithmic
+•	unstable
