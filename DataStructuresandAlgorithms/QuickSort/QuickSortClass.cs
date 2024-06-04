@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace QuickSort
 {
     // Unstable
+    // example gif: https://upload.wikimedia.org/wikipedia/commons/9/9c/Quicksort-example.gif
     public class QuickSortClass
     {
         public static void QuickSort(int[] array)
@@ -16,9 +17,7 @@ namespace QuickSort
             void Sort(int low, int high)
             {
                 if (high <= low)
-                {
                     return;
-                }
 
                 int j = Partition(low, high);
                 Sort(low, j - 1);
