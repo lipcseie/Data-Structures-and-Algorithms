@@ -1,1 +1,20 @@
-﻿
+﻿Array.Sort
+•	List<T>.Sort() eventually calls Array.Sort<T>()
+•	if T is primitive -> TrySZort() – native implementation
+•	if T is ref type ->
+if( platform == .NET Core || platform >= .NET Fremework 4.5)
+	{
+		// combination of insertion sort, heap sort, QSort
+		IntroSort();
+	}
+	else
+	{
+		// actually IntroSort as well
+		// QSort with 32-max recursion deph, if exceeded switches to HeapSort
+		DepthLimitedQuickSort();
+	}
+
+•	Array.Sort demonstrates the following complexity
+	o	O( nLogn) linearithmic on average
+	o	O(n2) quadratic – extreme rare case
+
