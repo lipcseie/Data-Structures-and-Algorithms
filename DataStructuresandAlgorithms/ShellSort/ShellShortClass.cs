@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace ShellSort
 {
     // Unstable
+    // example gif: https://upload.wikimedia.org/wikipedia/commons/6/61/Sorting_shellsort_anim2.gif
     public class ShellShortClass
     {
         public static void ShellShort(int[] array)

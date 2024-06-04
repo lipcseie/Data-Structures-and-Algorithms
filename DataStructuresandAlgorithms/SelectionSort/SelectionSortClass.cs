@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace SelectionSort
 {
     // Unstable Sorting Algorithm
+    // example gif: https://miro.medium.com/v2/resize:fit:720/format:webp/1*5WXRN62ddiM_Gcf4GDdCZg.gif
     public class SelectionSortClass
     {
         public static void SelectionSort(int[] array)

@@ -1,1 +1,9 @@
-﻿
+﻿Shell sort
+•	Based on insertion sort
+•	Basic idea: pre sort the input and switch to insertion sort
+•	Gap is used for pre-sorting => swap distant elements
+•	Shell sort starts with a large gap and gradually reduses it
+•	when gap = 1, insertion sort finihes the sorting process
+•	Shell sort performace depends on a concrete gap value
+•	in-place algorithm: uses a small amount of extra memory (does not depend on n)
+•	Unstable

@@ -1,1 +1,5 @@
-﻿
+﻿Selection Sort
+•	in-place algorithm: uses a small amount of extra memory (does not depend on n)
+•	Unstable (stable if it preserves the relative order of records with equal keys (values). In other words, if two items are equal, they will remain in the same order after sorting as they were before sorting.)
+•	O(n2) tome complexity is quadratic
+•	faster than bubblesort

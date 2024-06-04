@@ -1,1 +1,5 @@
-﻿
+﻿Insertion Sort
+•	in-place algorithm: uses a small amount of extra memory (does not depend on n)
+•	Stable
+•	O(n2) time complexity (quadratic)
+•	degrades quickly
