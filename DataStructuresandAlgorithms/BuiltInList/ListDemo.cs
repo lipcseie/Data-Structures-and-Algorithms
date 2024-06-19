@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,12 @@ namespace BuiltInList
 {
     public class ListDemo
     {
+        public class Customer
+        {
+            public string Name { get; set; }
+
+            public DateTime  BirthDate { get; set; }
+        }
         public static void Run()
         {
             List<int> list = new List<int>();
@@ -36,6 +43,34 @@ namespace BuiltInList
 
         }
 
+        public static void ApiMembers()
+        {
+            var list = new List<int>() { 1, 0, 5, 3, 4, 5, 6, };
+            list.Sort();
+
+            int indexBinSearch = list.BinarySearch(3);
+            list.Reverse();
+
+            ReadOnlyCollection<int> readOnlyList = list.AsReadOnly();
+
+            int[] array = list.ToArray();
+
+            var listCustomers = new List<Customer>
+            {
+                new Customer {BirthDate = new DateTime(1978,08,09), Name= "Frodo"},
+                new Customer {BirthDate = new DateTime(1977,07,05), Name= "Samu"},
+                new Customer {BirthDate = new DateTime(1903,03,06), Name= "Gandalf"}
+            };
+            listCustomers.Sort((left, right) =>
+            {
+                if (left.BirthDate > right.BirthDate)
+                    return 1;
+                if (right.BirthDate > left.BirthDate)
+                    return -1;
+                return 0;
+            });
+        }
+            
         private static void LogCountAndCapacity(List<int> list)
         {
             Console.WriteLine($"Count={list.Count}. Capacity={list.Capacity}");

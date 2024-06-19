@@ -1,1 +1,11 @@
-﻿
+﻿List
+•	Backed up by an array internally
+•	Add, adds an element to the end – O(1), O(n) if not enough 
+•	Remove – O(n) – searching
+•	RemoveAt – O(n) -shifting
+•	Reverse – O(n)
+•	ToArray – O(n) – based on Array.Copy
+•	Contains, IndexOf etc – O(n) – have to traverse n elements
+•	Sort demonstrates the following time complexity:
+	o	O(nlogn) linearithmic on average
+	o	O(n2) quadratic – extremely rare case
