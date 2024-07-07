@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="xunit" Version="2.5.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BubbleSort\BubbleSort.csproj" />
+    <ProjectReference Include="..\BuiltInList\BuiltInList.csproj" />
+    <ProjectReference Include="..\DataStructuresandAlgorithms\DataStructuresandAlgorithms.csproj" />
+    <ProjectReference Include="..\DeleteFromAnywhere\DeleteFromAnywhere.csproj" />
+    <ProjectReference Include="..\DeleteTheFirstElement\DeleteTheFirstElement.csproj" />
+    <ProjectReference Include="..\DeleteTheLastElement\DeleteTheLastElement.csproj" />
+    <ProjectReference Include="..\InsertElementAtPosition\InsertElementAtPosition.csproj" />
+    <ProjectReference Include="..\InsertingAtTheEndOfArray\InsertingAtTheEndOfArray.csproj" />
+    <ProjectReference Include="..\InsertingAtTheStartOfArray\InsertingAtTheStartOfArray.csproj" />
+    <ProjectReference Include="..\InsertionSort\InsertionSort.csproj" />
+    <ProjectReference Include="..\LinearSearch\LinearSearch.csproj" />
+    <ProjectReference Include="..\MergeSort\MergeSort.csproj" />
+    <ProjectReference Include="..\Node\NodeProject.csproj" />
+    <ProjectReference Include="..\QuickSort\QuickSort.csproj" />
+    <ProjectReference Include="..\Recursion\Recursion.csproj" />
+    <ProjectReference Include="..\SelectionSort\SelectionSort.csproj" />
+    <ProjectReference Include="..\ShellSort\ShellSort.csproj" />
+    <ProjectReference Include="..\SinglyLinkedList\SinglyLinkedListProject.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+</Project>

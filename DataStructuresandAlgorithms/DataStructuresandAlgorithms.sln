@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuiltInList", "BuiltInList\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NodeProject", "Node\NodeProject.csproj", "{92594770-5D85-41DF-9ABD-9C1E90A8AC9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinglyLinkedListProject", "SinglyLinkedList\SinglyLinkedListProject.csproj", "{D3CB333F-E489-49C8-BD87-72D98D953FD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SinglyLinkedListProject", "SinglyLinkedList\SinglyLinkedListProject.csproj", "{D3CB333F-E489-49C8-BD87-72D98D953FD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.Test", "DSA.Test\DSA.Test.csproj", "{0720E879-6EE1-4761-8BAF-264DA7C21A51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{D3CB333F-E489-49C8-BD87-72D98D953FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3CB333F-E489-49C8-BD87-72D98D953FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3CB333F-E489-49C8-BD87-72D98D953FD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0720E879-6EE1-4761-8BAF-264DA7C21A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0720E879-6EE1-4761-8BAF-264DA7C21A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0720E879-6EE1-4761-8BAF-264DA7C21A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0720E879-6EE1-4761-8BAF-264DA7C21A51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
