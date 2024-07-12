@@ -2,7 +2,7 @@ using InsertingAtTheEndOfArray;
 
 namespace DSA.Test
 {
-    public class ArrayTests
+    public class InsertingAtTheEndOfArrayTets
     {
         [Fact]
         public void InsertingAtTheEndOfArray_ShouldInsertElement()
@@ -21,5 +21,7 @@ namespace DSA.Test
             Assert.Equal(expcetedArray, result);
             Assert.Equal(originalArray.Length + 1, result.Length);
         }
+
+
     }
 }
