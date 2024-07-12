@@ -1,4 +1,4 @@
-# Data Structures and Algorithms
+# Data Structures and Algorithms (Work in Progress)
 
 ## About This Repository
 This repository is a personal learning project where I practice Data Structures and Algorithms in C#. The code here represents my progress and understanding of these fundamental concepts.
@@ -13,6 +13,7 @@ Although I've just begun, I'm excited to share my experiences and insights as I 
 - Implementations of various data structures and algorithms in C#.
 - My notes and comments on each topic.
 - Challenges I've encountered and how I've overcome them.
+- xUnit tests
 
 ## How to Navigate
 Each folder corresponds to a specific data structure or algorithm. Inside each folder, you'll find my C# code files along with a brief explanation.
