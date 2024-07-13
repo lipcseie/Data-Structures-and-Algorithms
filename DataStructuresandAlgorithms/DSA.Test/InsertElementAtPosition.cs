@@ -5,6 +5,7 @@ namespace DSA.Test
     public class InsertElementAtPosition
     {
         [Fact]
+        [Trait("Category", "ArrayTests")]
         public void InsertElementAtPosition_ShouldInsertElement()
         {
             // Arrange

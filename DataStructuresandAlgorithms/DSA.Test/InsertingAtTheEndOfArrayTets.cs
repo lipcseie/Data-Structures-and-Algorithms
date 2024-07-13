@@ -5,6 +5,7 @@ namespace DSA.Test
     public class InsertingAtTheEndOfArrayTets
     {
         [Fact]
+        [Trait("Category", "ArrayTests")]
         public void InsertingAtTheEndOfArray_ShouldInsertElement()
 
         {

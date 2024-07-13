@@ -10,6 +10,7 @@ namespace DSA.Test
     public class InsertingAtTheStartOfArray
     {
         [Fact]
+        [Trait("Category", "ArrayTests")]
         public void InsertingAtTheStartOfArray_ShouldInsertElement()
         {
             // Arrange
