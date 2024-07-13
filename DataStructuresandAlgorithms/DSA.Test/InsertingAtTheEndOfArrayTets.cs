@@ -22,6 +22,5 @@ namespace DSA.Test
             Assert.Equal(originalArray.Length + 1, result.Length);
         }
 
-
     }
 }
