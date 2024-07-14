@@ -10,8 +10,8 @@ namespace DSA.Test
     public class DeleteTheLastElementTest
     {
         [Fact]
-        [Trait("Category", "ArrayTests")]
-        public void InsertElementAtPosition_ShouldInsertElement()
+        [Trait("Category", "DeleteTheLastElementTest")]
+        public void DeleteTheLastElement_ShouldRemoveElement()
         {
             // Arrange
             int[] originalArray = { 1, 2, 3 };
@@ -25,6 +25,31 @@ namespace DSA.Test
 
             Assert.Equal(expcetedArray, result);
             Assert.Equal(originalArray.Length - 1, result.Length);
+        }
+
+
+        [Fact]
+        [Trait("Category", "DeleteTheLastElementTest")]
+        public void DeleteTheLastElement_EmptyArray_ShouldThrowException()
+        {
+            // Arrange
+            int[] originalArray = { };
+            int newElement = 9;
+
+            // Act & Assert
+            Assert.Throws<ArgumentException>(() => Program.DeleteTheLastElement(originalArray));
+        }
+
+        [Fact]
+        [Trait("Category", "DeleteTheLastElementTest")]
+        public void DeleteTheLastElement_NullArray_ShouldThrowExeption()
+        {
+            // Arrange
+            int[] originalArray = null;
+            int newElement = 9;
+
+            // Act & Assert
+            Assert.Throws<ArgumentException>(() => Program.DeleteTheLastElement(originalArray));
         }
     }
 }
