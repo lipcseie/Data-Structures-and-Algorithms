@@ -5,7 +5,7 @@ namespace DSA.Test
     public class InsertingAtTheEndOfArrayTets
     {
         [Fact]
-        [Trait("Category", "ArrayTests")]
+        [Trait("Category", "InsertingAtTheEndOfArrayTets")]
         public void InsertingAtTheEndOfArray_ShouldInsertElement()
 
         {
@@ -24,11 +24,23 @@ namespace DSA.Test
         }
 
         [Fact]
-        [Trait("Category", "ArrayTests")]
-         public void InsertingAtTheEndOfArray_EmptyArray_ShouldThrowException()
+        [Trait("Category", "InsertingAtTheEndOfArrayTets")]
+        public void InsertingAtTheEndOfArray_EmptyArray_ShouldThrowException()
         {
             // Arrange
             int[] originalArray = { };
+            int newElement = 9;
+
+            // Act & Assert
+            Assert.Throws<ArgumentException>(() => Program.InsertingAtTheEndOfArray(originalArray, newElement));
+        }
+
+        [Fact]
+        [Trait("Category", "InsertingAtTheEndOfArrayTets")]
+        public void InsertingAtTheEndOfArray_NullArray_ShouldThrowExeption()
+        {
+            // Arrange
+            int[] originalArray = null;
             int newElement = 9;
 
             // Act & Assert
