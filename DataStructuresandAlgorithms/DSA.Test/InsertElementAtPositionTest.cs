@@ -2,7 +2,7 @@
 
 namespace DSA.Test
 {
-    public class InsertElementAtPosition
+    public class InsertElementAtPositionTest
     {
         [Fact]
         [Trait("Category", "ArrayTests")]
