@@ -21,5 +21,17 @@ namespace DSA.Test
             Assert.Equal(expcetedArray, result);
             Assert.Equal(originalArray.Length - 1, result.Length);
         }
+
+        [Fact]
+        [Trait("Category", "DeleteTheFirstElementTest")]
+        public void DeleteTheFirstElement_EmptyArray_ShouldThrowException()
+        {
+            // Arrange
+            int[] originalArray = { };
+            int newElement = 9;
+
+            // Act & Assert
+            Assert.Throws<ArgumentException>(() => Program.DeleteTheFirstElement(originalArray));
+        }
     }
 }
