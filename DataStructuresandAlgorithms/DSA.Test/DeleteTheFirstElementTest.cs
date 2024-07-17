@@ -28,7 +28,17 @@ namespace DSA.Test
         {
             // Arrange
             int[] originalArray = { };
-            int newElement = 9;
+
+            // Act & Assert
+            Assert.Throws<ArgumentException>(() => Program.DeleteTheFirstElement(originalArray));
+        }
+
+        [Fact]
+        [Trait("Category", "DeleteTheFirstElementTest")]
+        public void DeleteTheFirsttElement_NullArray_ShouldThrowExeption()
+        {
+            // Arrange
+            int[] originalArray = null;
 
             // Act & Assert
             Assert.Throws<ArgumentException>(() => Program.DeleteTheFirstElement(originalArray));

@@ -34,7 +34,6 @@ namespace DSA.Test
         {
             // Arrange
             int[] originalArray = { };
-            int newElement = 9;
 
             // Act & Assert
             Assert.Throws<ArgumentException>(() => Program.DeleteTheLastElement(originalArray));
@@ -46,7 +45,6 @@ namespace DSA.Test
         {
             // Arrange
             int[] originalArray = null;
-            int newElement = 9;
 
             // Act & Assert
             Assert.Throws<ArgumentException>(() => Program.DeleteTheLastElement(originalArray));
