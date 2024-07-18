@@ -42,11 +42,23 @@ namespace DSA.Test
 
         [Fact]
         [Trait("Category", "DeleteAtPositionTest")]
-        public void DeleteTheFirsttElement_NullArray_ShouldThrowExeption()
+        public void DeleteAtPosition_NullArray_ShouldThrowExeption()
         {
             // Arrange
             int[] originalArray = null;
             int position = 1;
+
+            // Act & Assert
+            Assert.Throws<ArgumentException>(() => Program.DeleteAtPosition(originalArray, position));
+        }
+
+        [Fact]
+        [Trait("Category", "DeleteAtPositionTest")]
+        public void DeleteAtPosition_PositionNegativeInteger_ShouldThrowExeption()
+        {
+            // Arrange
+            int[] originalArray = null;
+            int position = -1;
 
             // Act & Assert
             Assert.Throws<ArgumentException>(() => Program.DeleteAtPosition(originalArray, position));
