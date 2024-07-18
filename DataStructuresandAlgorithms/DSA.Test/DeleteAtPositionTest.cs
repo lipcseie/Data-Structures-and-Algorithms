@@ -57,8 +57,20 @@ namespace DSA.Test
         public void DeleteAtPosition_PositionNegativeInteger_ShouldThrowExeption()
         {
             // Arrange
-            int[] originalArray = null;
+            int[] originalArray = { 1, 2, 3 };
             int position = -1;
+
+            // Act & Assert
+            Assert.Throws<ArgumentException>(() => Program.DeleteAtPosition(originalArray, position));
+        }
+
+        [Fact]
+        [Trait("Category", "DeleteAtPositionTest")]
+        public void DeleteAtPosition_ArrayLenghtBiggerOrEqualWithPosition_ShouldThrowExeption()
+        {
+            // Arrange
+            int[] originalArray = { 1, 2, 3 };
+            int position = 9;
 
             // Act & Assert
             Assert.Throws<ArgumentException>(() => Program.DeleteAtPosition(originalArray, position));
