@@ -11,7 +11,7 @@ namespace DSA.Test
     {
         [Fact]
         [Trait("Category", "DeleteAtPositionTest")]
-        public void DeleteTheFirstElement_ShouldRemoveElement()
+        public void DeleteAtPosition_ShouldRemoveElement()
         {
             // Arrange
             int[] originalArray = { 1, 2, 3 };
@@ -26,6 +26,18 @@ namespace DSA.Test
 
             Assert.Equal(expcetedArray, result);
             Assert.Equal(originalArray.Length - 1, result.Length);
+        }
+
+        [Fact]
+        [Trait("Category", "DeleteAtPositionTest")]
+        public void DeleteAtPositio_EmptyArray_ShouldThrowException()
+        {
+            // Arrange
+            int[] originalArray = { };
+            int position = 1;
+
+            // Act & Assert
+            Assert.Throws<ArgumentException>(() => Program.DeleteAtPosition(originalArray, position));
         }
     }
 }
