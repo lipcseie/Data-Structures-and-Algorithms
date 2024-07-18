@@ -49,5 +49,19 @@ namespace DSA.Test
             // Act & Assert
             Assert.Throws<ArgumentException>(() => Program.InsertElementAtPosition(originalArray, newElement, position));
         }
+
+
+        [Fact]
+        [Trait("Category", "InsertElementAtPositionTests")]
+        public void InsertElementAtPosition_PositionNegativeInteger_ShouldThrowExeption()
+        {
+            // Arrange
+            int[] originalArray = { 1, 2, 3 };
+            int position = -1;
+            int newElememnt = 9;
+
+            // Act & Assert
+            Assert.Throws<ArgumentException>(() => Program.InsertElementAtPosition(originalArray,newElememnt, position));
+        }
     }
 }

@@ -43,6 +43,11 @@ namespace InsertElementAtPosition
                 throw new ArgumentException("Array must not be null or empty");
             }
 
+            if (position < 0 || position >= array.Length)
+            {
+                throw new ArgumentException("Position must be a positive integer");
+            }
+
             int length = array.Length;
             int[] newArray = new int[length + 1];
 
