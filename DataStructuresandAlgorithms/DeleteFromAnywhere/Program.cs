@@ -1,11 +1,11 @@
-﻿namespace DeleteFromAnywhere
+﻿namespace DeleteAtPosition
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
             int[] originalArray = { 1, 2, 3, 4, 5, 6, 7 };
-            int[] result = DeleteFromAnywhere(originalArray, 3);
+            int[] result = DeleteAtPosition(originalArray, 3);
 
             foreach (var item in result)
             {
@@ -13,7 +13,7 @@
             }
         }
 
-        public static int[] DeleteFromAnywhere(int[] array, int position)
+        public static int[] DeleteAtPosition(int[] array, int position)
         {
             if (array == null || array.Length == 0)
             {

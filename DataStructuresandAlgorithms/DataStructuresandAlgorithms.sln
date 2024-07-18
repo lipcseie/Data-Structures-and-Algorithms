@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteTheLastElement", "Del
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteTheFirstElement", "DeleteTheFirstElement\DeleteTheFirstElement.csproj", "{BA3F6B3B-7D25-426A-8F56-19541A4419E0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteFromAnywhere", "DeleteFromAnywhere\DeleteFromAnywhere.csproj", "{721F9A83-0AE4-4B1F-A578-6C0C79C6E0F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteAtPosition", "DeleteFromAnywhere\DeleteAtPosition.csproj", "{721F9A83-0AE4-4B1F-A578-6C0C79C6E0F8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearSearch", "LinearSearch\LinearSearch.csproj", "{4C3ADBBD-1FDF-4C2A-8CC0-A45314266A6C}"
 EndProject
@@ -39,7 +39,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NodeProject", "Node\NodePro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SinglyLinkedListProject", "SinglyLinkedList\SinglyLinkedListProject.csproj", "{D3CB333F-E489-49C8-BD87-72D98D953FD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.Test", "DSA.Test\DSA.Test.csproj", "{0720E879-6EE1-4761-8BAF-264DA7C21A51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSA.Test", "DSA.Test\DSA.Test.csproj", "{0720E879-6EE1-4761-8BAF-264DA7C21A51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

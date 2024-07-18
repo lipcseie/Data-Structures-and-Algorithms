@@ -20,7 +20,7 @@
     <ProjectReference Include="..\BubbleSort\BubbleSort.csproj" />
     <ProjectReference Include="..\BuiltInList\BuiltInList.csproj" />
     <ProjectReference Include="..\DataStructuresandAlgorithms\DataStructuresandAlgorithms.csproj" />
-    <ProjectReference Include="..\DeleteFromAnywhere\DeleteFromAnywhere.csproj" />
+    <ProjectReference Include="..\DeleteFromAnywhere\DeleteAtPosition.csproj" />
     <ProjectReference Include="..\DeleteTheFirstElement\DeleteTheFirstElement.csproj" />
     <ProjectReference Include="..\DeleteTheLastElement\DeleteTheLastElement.csproj" />
     <ProjectReference Include="..\InsertElementAtPosition\InsertElementAtPosition.csproj" />
