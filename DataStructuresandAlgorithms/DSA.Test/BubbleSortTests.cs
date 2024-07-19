@@ -33,5 +33,20 @@ namespace DSA.Test
             // Assert
             Assert.Equal(expectedOutput,input);
         }
+        [Fact]
+        [Trait("Category", "BubbleSortTests")]
+        public void BubbleSort_SingleElementArray_DoesNotChange()
+        {
+            // Arrange
+            int[] input = { 42 };
+            int[] expectedOutput = { 42 };
+
+            // Act
+            BubbleSortClass.BubbleSort(input);
+
+            // Assert
+            Assert.Equal(expectedOutput, input);
+        }
+
     }
 }
