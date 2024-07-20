@@ -20,7 +20,7 @@ namespace SelectionSort
 
                 for (int i = 1; i <= partIndex; i++)
                 {
-                    if (array[i] == array[largestAt])
+                    if (array[i] > array[largestAt])
                     {
                         largestAt = i;
                     }
