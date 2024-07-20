@@ -1,4 +1,5 @@
-﻿using SelectionSort;
+﻿using BubbleSort;
+using SelectionSort;
 
 
 namespace DSA.Test
@@ -30,6 +31,21 @@ namespace DSA.Test
 
             // Act
             SelectionSortClass.SelectionSort(input);
+
+            // Assert
+            Assert.Equal(expectedOutput, input);
+        }
+
+        [Fact]
+        [Trait("Category", "SelectionSortTests")]
+        public void SelectionSort_SingleElementArray_DoesNotChange()
+        {
+            // Arrange
+            int[] input = { 42 };
+            int[] expectedOutput = { 42 };
+
+            // Act
+            BubbleSortClass.BubbleSort(input);
 
             // Assert
             Assert.Equal(expectedOutput, input);
