@@ -8,7 +8,7 @@ namespace InsertionSort
 {
     // Stable Sorting Algorithm
     // example gif: https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif
-    internal class InsertionSortClass
+    public class InsertionSortClass
     {
         public static void InsertionSort(int[] array)
         {
