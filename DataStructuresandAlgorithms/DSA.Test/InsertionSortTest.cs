@@ -1,5 +1,4 @@
 ﻿using InsertionSort;
-using SelectionSort;
 
 namespace DSA.Test
 {
@@ -27,6 +26,21 @@ namespace DSA.Test
             //Arrange
             int[] input = new int[0];
             int[] expectedOutput = new int[0];
+
+            // Act
+            InsertionSortClass.InsertionSort(input);
+
+            // Assert
+            Assert.Equal(expectedOutput, input);
+        }
+
+        [Fact]
+        [Trait("Category", "InsertionSortTest")]
+        public void InsertionSort_SingleElementArray_DoesNotChange()
+        {
+            // Arrange
+            int[] input = { 42 };
+            int[] expectedOutput = { 42 };
 
             // Act
             InsertionSortClass.InsertionSort(input);
