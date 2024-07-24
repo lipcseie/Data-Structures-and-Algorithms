@@ -1,4 +1,5 @@
-﻿using ShellSort;
+﻿using SelectionSort;
+using ShellSort;
 
 namespace DSA.Test
 {
@@ -47,6 +48,21 @@ namespace DSA.Test
 
             // Assert
             Assert.Equal(expectedOutput, input);
+        }
+
+        [Fact]
+        [Trait("Category", "ShellSortTests")]
+        public void ShellSort_AlreadySortedArray_DoesNotChange()
+        {
+            // Arrange
+            int[] input = { 1, 2, 3, 4, 5 };
+            int[] expected = { 1, 2, 3, 4, 5 };
+
+            // Act
+            ShellShortClass.ShellShort(input);
+
+            // Assert
+            Assert.Equal(expected, input);
         }
     }
 }
