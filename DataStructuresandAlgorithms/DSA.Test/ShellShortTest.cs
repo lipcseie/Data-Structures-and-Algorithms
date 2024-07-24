@@ -33,5 +33,20 @@ namespace DSA.Test
             // Assert
             Assert.Equal(expectedOutput, input);
         }
+
+        [Fact]
+        [Trait("Category", "ShellSortTests")]
+        public void ShellSort_SingleElementArray_DoesNotChange()
+        {
+            // Arrange
+            int[] input = { 42 };
+            int[] expectedOutput = { 42 };
+
+            // Act
+            ShellShortClass.ShellShort(input);
+
+            // Assert
+            Assert.Equal(expectedOutput, input);
+        }
     }
 }
