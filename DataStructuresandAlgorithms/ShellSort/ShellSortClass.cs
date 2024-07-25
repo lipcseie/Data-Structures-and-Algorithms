@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ShellSort
+﻿namespace ShellSort
 {
     // Unstable
     // example gif: https://upload.wikimedia.org/wikipedia/commons/6/61/Sorting_shellsort_anim2.gif
-    public class ShellShortClass
+    public class ShellSortClass
     {
-        public static void ShellShort(int[] array)
+        public static void ShellSort(int[] array)
         {
             int gap = 1;
             while (gap < array.Length / 3)

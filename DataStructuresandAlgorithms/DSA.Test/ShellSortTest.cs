@@ -2,7 +2,7 @@
 
 namespace DSA.Test
 {
-    public class ShellShortTest
+    public class ShellSortTest
     {
         [Fact]
         [Trait("Category", "ShellSortTests")]
@@ -13,7 +13,7 @@ namespace DSA.Test
             int[] expectedOutput = { 1, 2, 5, 5, 6, 9 };
 
             // Act
-            ShellShortClass.ShellShort(input);
+            ShellSortClass.ShellSort(input);
 
             // Assert
             Assert.Equal(expectedOutput, input);
@@ -28,7 +28,7 @@ namespace DSA.Test
             int[] expectedOutput = new int[0];
 
             // Act
-            ShellShortClass.ShellShort(input);
+            ShellSortClass.ShellSort(input);
 
             // Assert
             Assert.Equal(expectedOutput, input);
@@ -43,7 +43,7 @@ namespace DSA.Test
             int[] expectedOutput = { 42 };
 
             // Act
-            ShellShortClass.ShellShort(input);
+            ShellSortClass.ShellSort(input);
 
             // Assert
             Assert.Equal(expectedOutput, input);
@@ -58,7 +58,7 @@ namespace DSA.Test
             int[] expected = { 1, 2, 3, 4, 5 };
 
             // Act
-            ShellShortClass.ShellShort(input);
+            ShellSortClass.ShellSort(input);
 
             // Assert
             Assert.Equal(expected, input);
@@ -73,12 +73,25 @@ namespace DSA.Test
             int[] expetedOutput = Enumerable.Range(1, 1000).ToArray();
 
             // Act
-            ShellShortClass.ShellShort(input);
+            ShellSortClass.ShellSort(input);
 
             // Assert
             Assert.Equal(expetedOutput, input);
         }
 
-        
+        [Fact]
+        [Trait("Category", "ShellSortTests")]
+        public void ShellSort_ArrayWithNegativeNumbers_SortsCorrectly()
+        {
+            // Arrange
+            int[] input = { -3, -1, -2, 0, 2, 1 };
+            int[] expetedOutput = { -3, -2, -1, 0, 1, 2 };
+
+            // Act
+            ShellSortClass.ShellSort(input);
+
+            // Assert
+            Assert.Equal(expetedOutput, input);
+        }
     }
 }

@@ -7,7 +7,7 @@ namespace ShellSort
         static void Main(string[] args)
         {
             string filePath = @"C:\Users\ASUS\Data-Structures-and-Algorithms\DataStructuresandAlgorithms\DataStructuresandAlgorithms\Data\8Kints.txt";
-            int[] numbers = ShellShortClass.ReadIntsFromFile(filePath);
+            int[] numbers = ShellSortClass.ReadIntsFromFile(filePath);
 
             if (numbers.Length > 0)
             {
@@ -19,7 +19,7 @@ namespace ShellSort
 
                 Stopwatch stopwatch = Stopwatch.StartNew();
 
-                ShellShortClass.ShellShort(numbers);
+                ShellSortClass.ShellSort(numbers);
 
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("\nArray after sorting:");
