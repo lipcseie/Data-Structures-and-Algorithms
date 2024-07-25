@@ -1,5 +1,4 @@
-﻿using SelectionSort;
-using ShellSort;
+﻿using ShellSort;
 
 namespace DSA.Test
 {
@@ -63,6 +62,21 @@ namespace DSA.Test
 
             // Assert
             Assert.Equal(expected, input);
+        }
+
+        [Fact]
+        [Trait("Category", "ShellSortTests")]
+        public void ShellSort_LargeArray_SortsCorretly()
+        {
+            // Arrange
+            int[] input = Enumerable.Range(1, 1000).Reverse().ToArray();
+            int[] expetedOutput = Enumerable.Range(1, 1000).ToArray();
+
+            // Act
+            ShellShortClass.ShellShort(input);
+
+            // Assert
+            Assert.Equal(expetedOutput, input);
         }
     }
 }
