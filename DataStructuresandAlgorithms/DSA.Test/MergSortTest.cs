@@ -69,5 +69,21 @@ namespace DSA.Test
             // Assert
             Assert.Equal(expected, input);
         }
+
+        [Fact]
+        [Trait("Category", "MergeSortTests")]
+        public void MergeSort_LargeArray_SortsCorretly()
+        {
+            // Arrange
+            int[] input = Enumerable.Range(1, 1000).Reverse().ToArray();
+            int[] expetedOutput = Enumerable.Range(1, 1000).ToArray();
+
+            // Act
+            MergeSortClass.MergeSort(input);
+
+            // Assert
+            Assert.Equal(expetedOutput, input);
+        }
+
     }
 }
