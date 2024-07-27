@@ -85,5 +85,20 @@ namespace DSA.Test
             Assert.Equal(expetedOutput, input);
         }
 
+        [Fact]
+        [Trait("Category", "MergeSortTests")]
+        public void MergeSort_ArrayWithNegativeNumbers_SortsCorrectly()
+        {
+            // Arrange
+            int[] input = { -3, -1, -2, 0, 2, 1 };
+            int[] expetedOutput = { -3, -2, -1, 0, 1, 2 };
+
+            // Act
+            MergeSortClass.MergeSort(input);
+
+            // Assert
+            Assert.Equal(expetedOutput, input);
+        }
+
     }
 }
