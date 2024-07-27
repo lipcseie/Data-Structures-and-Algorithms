@@ -54,5 +54,20 @@ namespace DSA.Test
             // Assert
             Assert.Equal(expectedOutput, input);
         }
+
+        [Fact]
+        [Trait("Category", "MergeSortTests")]
+        public void MergeSort_AlreadySortedArray_DoesNotChange()
+        {
+            // Arrange
+            int[] input = { 1, 2, 3, 4, 5 };
+            int[] expected = { 1, 2, 3, 4, 5 };
+
+            // Act
+            MergeSortClass.MergeSort(input);
+
+            // Assert
+            Assert.Equal(expected, input);
+        }
     }
 }
