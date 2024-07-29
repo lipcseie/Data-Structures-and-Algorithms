@@ -5,7 +5,7 @@ namespace DSA.Test
     public class MergSortTest
     {
         [Fact]
-        [Trait("Category", "MergSortTest")]
+        [Trait("Category", "MergeSortTest")]
         public void MergeSort_SortsArrayCorrectly()
         {
             // Arrange
@@ -20,7 +20,7 @@ namespace DSA.Test
         }
 
         [Fact]
-        [Trait("Category", "MergSortTest")]
+        [Trait("Category", "MergeSortTest")]
         public void MergeSort_EmptyArray_DoesNotChange()
         {
             //Arrange
@@ -35,7 +35,7 @@ namespace DSA.Test
         }
 
         [Fact]
-        [Trait("Category", "MergSortTest")]
+        [Trait("Category", "MergeSortTest")]
         public void MergeSort_SingleElementArray_DoesNotChange()
         {
             // Arrange
