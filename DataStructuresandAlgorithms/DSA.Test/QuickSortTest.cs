@@ -49,5 +49,20 @@ namespace DSA.Test
             // Assert
             Assert.Equal(expectedOutput, input);
         }
+
+        [Fact]
+        [Trait("Category", "QuickSortTest")]
+        public void QuickSort_AlreadySortedArray_DoesNotChange()
+        {
+            // Arrange
+            int[] input = { 1, 2, 3, 4, 5 };
+            int[] expected = { 1, 2, 3, 4, 5 };
+
+            // Act
+            QuickSortClass.QuickSort(input);
+
+            // Assert
+            Assert.Equal(expected, input);
+        }
     }
 }
