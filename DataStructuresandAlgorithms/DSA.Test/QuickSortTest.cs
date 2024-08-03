@@ -64,5 +64,20 @@ namespace DSA.Test
             // Assert
             Assert.Equal(expected, input);
         }
+
+        [Fact]
+        [Trait("Category", "QuickSortTests")]
+        public void QuickSort_LargeArray_SortsCorretly()
+        {
+            // Arrange
+            int[] input = Enumerable.Range(1, 1000).Reverse().ToArray();
+            int[] expetedOutput = Enumerable.Range(1, 1000).ToArray();
+
+            // Act
+            QuickSortClass.QuickSort(input);
+
+            // Assert
+            Assert.Equal(expetedOutput, input);
+        }
     }
 }
