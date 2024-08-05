@@ -1,4 +1,5 @@
 ﻿using LinearSearch;
+using MergeSort;
 
 namespace DSA.Test
 {
@@ -19,6 +20,23 @@ namespace DSA.Test
             // Assert
             Assert.Equal(expectedIndex, resultIndex);
 
+        }
+
+        [Fact]
+        [Trait("Category", "LinearSearchTest")]
+        public void LinearSearch_LargeArray_FindsTargetValue_ReturnsInde()
+        {
+            // Arrange
+            int[] numbers = Enumerable.Range(1, 1000).Reverse().ToArray();
+            int target = 1;
+            int expectedIndex = 999;
+
+
+            // Act
+            int resultIndex = Program.LinearSearch(numbers, target);
+
+            // Assert
+            Assert.Equal(expectedIndex, resultIndex);
         }
     }
 }
