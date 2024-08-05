@@ -1,0 +1,24 @@
+﻿using LinearSearch;
+
+namespace DSA.Test
+{
+    public class LinearSearchTest
+    {
+        [Fact]
+        [Trait("Category", "LinearSearchTest")]
+        public void LinearSearch_FindsTargetValue_ReturnsIndex()
+        {
+            // Arrange
+            int[] numbers = { 1, 2, 3, 4, 5 };
+            int target = 3;
+            int expectedIndex = 2;
+
+            // Act
+            int resultIndex = Program.LinearSearch(numbers, target);
+
+            // Assert
+            Assert.Equal(expectedIndex, resultIndex);
+
+        }
+    }
+}

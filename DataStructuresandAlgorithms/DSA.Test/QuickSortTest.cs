@@ -1,5 +1,4 @@
-﻿using MergeSort;
-using QuickSort;
+﻿using QuickSort;
 
 namespace DSA.Test
 {
