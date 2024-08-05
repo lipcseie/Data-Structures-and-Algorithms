@@ -38,5 +38,21 @@ namespace DSA.Test
             // Assert
             Assert.Equal(expectedIndex, resultIndex);
         }
+
+        [Fact]
+        [Trait("Category", "LinearSearchTest")]
+        public void LinearSearch_TargetNotInArray_ReturnsNegativeOne()
+        {
+            // Arrange
+            int[] numbers = { 1, 2, 3, 4, 5 };
+            int target = 10;
+            int expectedIndex = -1;
+
+            // Act
+            int resultIndex = Program.LinearSearch(numbers, target);
+
+            // Assert
+            Assert.Equal(expectedIndex, resultIndex);
+        }
     }
 }
