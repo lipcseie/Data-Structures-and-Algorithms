@@ -54,5 +54,18 @@ namespace DSA.Test
             // Assert
             Assert.Equal(expectedIndex, resultIndex);
         }
+
+        [Fact]
+        [Trait("Category", "LinearSearchTest")]
+        public void LinearSearch_ArrayIsEmpty_ThrowsArgumentException()
+        {
+            // Arrange
+            int[] numbers = { };
+            int target = 5;
+
+            // Act & Arrange
+            Assert.Throws<ArgumentException>(() => Program.LinearSearch(numbers, target));
+
+        }
     }
 }
