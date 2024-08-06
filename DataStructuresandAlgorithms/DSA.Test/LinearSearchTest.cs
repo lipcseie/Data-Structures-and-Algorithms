@@ -63,9 +63,20 @@ namespace DSA.Test
             int[] numbers = { };
             int target = 5;
 
-            // Act & Arrange
+            // Act & Assert
             Assert.Throws<ArgumentException>(() => Program.LinearSearch(numbers, target));
+        }
 
+        [Fact]
+        [Trait("Category", "LinearSearchTest")]
+        public void LinearSearch_TargetNegative_ThrowsArgumentException()
+        {
+            // Arrange
+            int[] numbers = { 1, 2, 3, 4, 5 };
+            int target = -1;
+
+            // Act & Assert
+            Assert.Throws<ArgumentException>(() => Program.LinearSearch(numbers, target));
         }
     }
 }
