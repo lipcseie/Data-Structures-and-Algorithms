@@ -78,5 +78,18 @@ namespace DSA.Test
             // Act & Assert
             Assert.Throws<ArgumentException>(() => Program.LinearSearch(numbers, target));
         }
+
+        [Fact]
+        [Trait("Category", "LinearSearchTest")]
+        public void LinearSearch_NullArray_ThrowsArgumentException()
+        {
+            // Arrange
+            int[] numbers = null;
+            int target = 5;
+
+            // Act & Assert
+            Assert.Throws<ArgumentException>(() => Program.LinearSearch(numbers, target));
+        }
+
     }
 }
