@@ -91,5 +91,22 @@ namespace DSA.Test
             Assert.Throws<ArgumentException>(() => Program.LinearSearch(numbers, target));
         }
 
+        [Fact]
+        [Trait("Category", "LinearSearchTest")]
+        public void LinearSearch_ArrayWithDuplicates_FindsFirstOccurrence()
+        {
+            // Arrange
+            int[] numbers = { 1, 2, 3, 2, 4, 2 };
+            int target = 2;
+            int expectedIndex = 1;
+
+            // Act
+            int resultIndex = Program.LinearSearch(numbers, target);
+
+            // Assert
+            Assert.Equal(expectedIndex, resultIndex);
+
+        }
+
     }
 }
