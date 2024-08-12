@@ -108,5 +108,22 @@ namespace DSA.Test
 
         }
 
+        [Fact]
+        [Trait("Category", "LinearSearchTest")]
+        public void LinearSearch_ArrayWithSameElements_FindsTargetValue_ReturnsFirstIndex()
+        {
+            // Arrange
+            int[] numbers = { 7, 7, 7, 7, 7, 7 };
+            int target = 7;
+            int expectedIndex = 0;
+
+            // Act
+            int resultIndex = Program.LinearSearch(numbers, target);
+
+            // Assert
+            Assert.Equal(expectedIndex, resultIndex);
+
+        }
+
     }
 }
